@@ -1,0 +1,10 @@
+.countdown-timer {
+  font-size: clamp(2rem, 5vw + 1rem, 6rem);
+}
+
+.divider {
+  width: 1px;
+  height: 100%;
+  background-color: #ccc;
+  margin: 0 20px;
+}
