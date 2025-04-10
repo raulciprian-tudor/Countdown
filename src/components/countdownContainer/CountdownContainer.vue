@@ -23,7 +23,6 @@ const countdownActive = ref(false);
 
 const handleDateSelected = (date) => {
     selectedDate.value = date;
-    console.log('Selected date:', selectedDate.value);
     countdownActive.value = false;
 };
 
